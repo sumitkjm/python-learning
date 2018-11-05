@@ -1,6 +1,6 @@
 #get user email address
 
-email = raw_input("Please provide your email address?: ").strip()
+email = input("Please provide your email address?: ").strip()
 
 # slice out user name
 

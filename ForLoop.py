@@ -4,7 +4,7 @@ for number in range (1, 10):
 vowels = 0
 consonents = 0
 
-word = raw_input("Type any word").strip()
+word = input("Type any word").strip()
 
 for letter in word:
     if letter.lower() in "aeiou":
@@ -12,8 +12,8 @@ for letter in word:
     else:
         consonents = consonents + 1
 
-print "Number of Vowels {}".format(vowels)
-print "Number of consonents {}".format(consonents)
+print ("Number of Vowels {}".format(vowels))
+print ("Number of consonents {}".format(consonents))
 
 students = {"male":["Sumit","Darsh"],
             "female":["Archana","Manasvi"]}

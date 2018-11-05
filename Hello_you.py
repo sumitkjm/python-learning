@@ -1,11 +1,11 @@
 #Ask User Name
-userName = raw_input ("What's your name?: ").strip()
+userName = input ("What's your name?: ").strip()
 #Ask User Age
 age = input( "What's your age?: ")
 #Ask User City
-city = raw_input ("What's your City?:").strip()
+city = input ("What's your City?:").strip()
 #Ask User what they enjoy
-love = raw_input("what you love to do?:")
+love = input("what you love to do?:")
 #Create output text
 #output = userName + " " + str(age) + " " + city +" " + love
 #Print output on the screen

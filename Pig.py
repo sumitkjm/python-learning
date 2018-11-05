@@ -1,6 +1,6 @@
 # Get Sentence from Sentence
 
-original = raw_input("Type the sentence").strip().lower()
+original = input("Type the sentence").strip().lower()
 
 # Split the sentence into words
 

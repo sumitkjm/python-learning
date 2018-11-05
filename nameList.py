@@ -5,11 +5,11 @@ print (len(known_users))
 
 while True:
     print ("Hi My Name is Sumit:")
-    name = raw_input("What's your name?: ").strip()
+    name = input("What's your name?: ").strip()
 
     if name in known_users:
-        print "Hello {}!".format(name)
-        remove = raw_input("Hello good to hear about ou again, would you like ot remove your name from list y/n?")
+        print ("Hello {}!".format(name))
+        remove = input("Hello good to hear about ou again, would you like ot remove your name from list y/n?")
 
         if remove == "y":
             known_users.remove(name)
@@ -18,6 +18,6 @@ while True:
             known_users.append(name)
 
     else:
-        print "Name not recognized!"
+        print ("Name not recognized!")
 
 
